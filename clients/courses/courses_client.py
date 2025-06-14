@@ -4,8 +4,8 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.files.files_client import File
-from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
-from clients.users.private_user_client import User
+from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
+from clients.users.private_users_client import User
 
 
 class Course(TypedDict):
@@ -40,6 +40,7 @@ class CreateCourseRequestDict(TypedDict):
     estimatedTime: str
     previewFileId: str
     createdByUserId: str
+
 
 class CreateCourseResponseDict(TypedDict):
     """
@@ -115,7 +116,8 @@ class CoursesClient(APIClient):
         response = self.create_course_api(request)
         return response.json()
 
-def get_courses_client(user: AuthenticationUserDict) -> CoursesClient:
+
+def get_courses_client(user: AuthenticationUserSchema) -> CoursesClient:
     """
     Функция создаёт экземпляр CoursesClient с уже настроенным HTTP-клиентом.
 

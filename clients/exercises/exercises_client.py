@@ -3,7 +3,7 @@ from typing import TypedDict
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
+from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 
 
 class Exercise(TypedDict):
@@ -19,17 +19,20 @@ class Exercise(TypedDict):
     description: str
     estimatedTime: str
 
+
 class GetExercisesResponseDict(TypedDict):
     """
     Описание структуры запроса на получение списка заданий.
     """
     exercises: list[Exercise]
 
+
 class GetExerciseResponseDict(TypedDict):
     """
     Описание структуры запроса на создание задания.
     """
     exercise: Exercise
+
 
 class GetExercisesQueryDict(TypedDict):
     """
@@ -130,7 +133,8 @@ class ExercisesClient(APIClient):
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
 
-def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
+
+def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
     """
     Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
 
