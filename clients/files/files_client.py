@@ -32,14 +32,14 @@ class FilesClient(APIClient):
             files={"upload_file": open(request.upload_file, 'rb')}
         )
 
-    def delete_file_apo(self, file_id: str) -> Response:
+    def delete_file_api(self, file_id: str) -> Response:
         """
         Метод удаления файла.
 
         :param file_id: Идентификатор файла.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f"/api/v1/file/{file_id}")
+        return self.delete(f"/api/v1/files/{file_id}")
 
     def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
         response = self.create_file_api(request)

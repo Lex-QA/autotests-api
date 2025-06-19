@@ -58,4 +58,4 @@ class APIClient:
         :param url: URL-адрес эндпоинта.
         :return: Объект Response с данными ответа.
         """
-        return self.client.patch(url)
+        return self.client.delete(url)
