@@ -24,6 +24,13 @@ def assert_update_course_response(
 
 
 def assert_course(actual: CourseSchema, expected: CourseSchema):
+    """
+    Проверяет, что фактические данные курса соответствуют ожидаемым.
+
+    :param actual: Фактические данные курса.
+    :param expected: Ожидаемые данные курса.
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
+    """
     assert_equal(actual.id, expected.id, "id")
     assert_equal(actual.title, expected.title, "title")
     assert_equal(actual.max_score, expected.max_score, "max_score")
@@ -39,6 +46,13 @@ def assert_get_courses_response(
         get_courses_response: GetCoursesResponseSchema,
         create_course_responses: list[CreateCourseResponseSchema]
 ):
+    """
+    Проверяет, что ответ на получение списка курсов соответствует ответам на их создание.
+
+    :param get_courses_response: Ответ API при запросе списка курсов.
+    :param create_course_responses: Список API ответов при создании курсов.
+    :raises AssertionError: Если данные курсов не совпадают.
+    """
     assert_length(get_courses_response.courses, create_course_responses, "courses")
 
     for index, create_course_response in enumerate(create_course_responses):
@@ -52,8 +66,8 @@ def assert_create_course_response(
     """
     Проверяет, что ответ на создание курса соответствует данным из запроса.
 
-    :param request: Исходный запрос на обновление курса.
-    :param response: Ответ API с обновленными данными курса.
+    :param request: Исходный запрос на создание курса.
+    :param response: Ответ API с данными созданного курса.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     assert_equal(response.course.title, request.title, "title")
