@@ -29,6 +29,9 @@ class GetCoursesQuerySchema(BaseModel):
 
     user_id: str = Field(alias="userId")
 
+class GetCoursesResponseSchema(BaseModel):
+    courses: list[CourseSchema]
+
 
 class CreateCourseRequestSchema(BaseModel):
     """
@@ -63,3 +66,10 @@ class UpdateCourseRequestSchema(BaseModel):
     min_score: int | None = Field(alias="minScore", default_factory=fake.min_score)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
+
+
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
