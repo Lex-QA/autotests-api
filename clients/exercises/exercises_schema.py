@@ -57,6 +57,13 @@ class CreateExerciseRequestSchema(BaseModel):
     estimated_time: str = Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
 
+class CreateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа создания задания.
+    """
+    exercise: ExerciseSchema
+
+
 class UpdateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на обновление задания.
@@ -69,3 +76,10 @@ class UpdateExerciseRequestSchema(BaseModel):
     order_index: int | None = Field(alias="orderIndex", default_factory=fake.integer)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
+
+
+class UpdateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления задания.
+    """
+    exercise: ExerciseSchema
