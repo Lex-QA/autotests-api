@@ -5,7 +5,8 @@ import pytest
 from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
-    GetExerciseResponseSchema, UpdateExerciseRequestSchema, GetExercisesQuerySchema, GetExercisesResponseSchema
+    GetExerciseResponseSchema, UpdateExerciseRequestSchema, GetExercisesQuerySchema, GetExercisesResponseSchema, \
+    UpdateExerciseResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
@@ -52,7 +53,7 @@ class TestExercises:
     ):
         request = UpdateExerciseRequestSchema()
         response = exercises_client.update_exercise_api(function_exercise.response.exercise.id, request)
-        response_data = GetExerciseResponseSchema.model_validate_json(response.text)
+        response_data = UpdateExerciseResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
         assert_update_exercise_response(request, response_data)
@@ -81,8 +82,8 @@ class TestExercises:
             function_exercise: ExerciseFixture,
             function_course: CourseFixture
     ):
-        response = exercises_client.get_exercises_api(
-            GetExercisesQuerySchema(courseId=function_course.response.course.id))
+        query = GetExercisesQuerySchema(course_id=function_course.response.course.id)
+        response = exercises_client.get_exercises_api(query)
         response_data = GetExercisesResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
