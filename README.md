@@ -27,7 +27,7 @@ This project is specifically designed for API autotests, incorporating best prac
 To get started, clone the project repository using Git:
 
 ```bash
-git clone https://github.com/Dev4Lex/autotests-api
+git clone https://github.com/Lex-QA/autotests-api
 cd autotests-api
 ```
 
