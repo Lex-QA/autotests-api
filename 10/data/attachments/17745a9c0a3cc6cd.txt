@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIzLjcyMjY1MiIsInVzZXJfaWQiOiI0NDY3MzNiNC1iN2RjLTQ3ODAtYWE5My1mY2Q1YmRkZjNlMTIifQ.nnkYuZOlF_-v_0v3SO3Y8PITKl2ODz0SV736who5Emw'\
+ -H 'content-length: 426'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Will cover moment five option miss deal now.","maxScore":66,"minScore":15,"description":"Entire degree spend effort. Visit piece newspaper difference each country. Media account different major.\nLate investment while which list. Week medical home far. Place plan discussion.","previewFileId":"7e6950c2-ef34-4b76-b3f3-9650d4a09e8a","estimatedTime":"10 weeks","createdByUserId":"446733b4-b7dc-4780-aa93-fcd5bddf3e12"}'

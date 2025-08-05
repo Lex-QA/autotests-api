@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIyLjc2NTQ0MCIsInVzZXJfaWQiOiI3M2NkMjA1Yi1lMTQ0LTRmZGMtYjViNC1mZjFkZWU5OTY3MzQifQ.67hWyFChRr7itgH3hR7WyopSrybt3OtOZ64o-95lYH8'\
+ -H 'content-length: 313'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Win company bit.","courseId":"386ea012-2ed0-42c9-90b9-97bccc21988b","maxScore":96,"minScore":28,"orderIndex":26,"description":"Partner sport actually. Second cold boy position.\nMethod example forget job physical. Attention manager later follow contain huge since experience.","estimatedTime":"3 weeks"}'

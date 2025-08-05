@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIyLjQ5MjQ1NSIsInVzZXJfaWQiOiIxMjc1OTViNS0yN2IyLTQzMDctYmY5OC0zZTlmM2MzODk5Y2UifQ.PflYcszRUYsYfNKAtT7zranSIa-D6xnr16ozAnG_hg8'\
+ -H 'content-length: 392'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Guy leg culture six.","maxScore":65,"minScore":30,"description":"General society imagine. Friend miss you artist food sell record.\nSport create store suffer Republican. Million end public more finish on. Doctor change affect agree per power.","previewFileId":"0da31a8d-fbe9-4858-95a1-9399b0ceffc1","estimatedTime":"3 weeks","createdByUserId":"127595b5-27b2-4307-bf98-3e9f3c3899ce"}'

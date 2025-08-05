@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIyLjQ5MjQ1NSIsInVzZXJfaWQiOiIxMjc1OTViNS0yN2IyLTQzMDctYmY5OC0zZTlmM2MzODk5Y2UifQ.PflYcszRUYsYfNKAtT7zranSIa-D6xnr16ozAnG_hg8'\
+ -H 'content-length: 326'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Detail clear economy prove detail huge skin.","courseId":"1767aa0e-704c-4a4b-85bc-05a8f12dac40","maxScore":64,"minScore":6,"orderIndex":44,"description":"Together doctor challenge employee. Civil adult identify become and seat exactly. Stand different try decision present idea character.","estimatedTime":"9 weeks"}'

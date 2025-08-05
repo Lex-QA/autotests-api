@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIxLjU3MTM1MiIsInVzZXJfaWQiOiI2Mzc4MzExOS1hNmM2LTQ5MTEtOWNhYy0xNzNhZTZjNDUwNDUifQ.HpPiy8x1XOfVCQyFresZeVDsgiYgJOt6cmnqTGOXKb8'\
+ -H 'content-length: 433'\
+ -H 'content-type: application/json'\
+ -d '{"title":"There blood hit recognize something recent medical.","maxScore":62,"minScore":7,"description":"Now others different particularly project choice those enjoy. Feeling up issue similar. Ago throughout miss industry.\nTrial owner event well society. Herself discuss room law offer image.","previewFileId":"bb7e715a-1432-407c-a9fb-b9b79a8df4db","estimatedTime":"7 weeks","createdByUserId":"63783119-a6c6-4911-9cac-173ae6c45045"}'

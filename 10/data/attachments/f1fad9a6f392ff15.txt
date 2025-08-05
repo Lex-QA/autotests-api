@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:83 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Decision see source rule.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Upon go majority. Mean history doctor foot hard. Learn member explain.
+Artist then soon day culture. Management bar control way strong.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 60362c90-06f8-49b8-8dd3-8332cd0116e6
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to c44aa20f-c119-4512-9400-24ad11f9aa65
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

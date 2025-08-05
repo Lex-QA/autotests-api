@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/a034951e-fc1f-4ed9-a4a5-37ed567f6db5\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjE4Ljk2Mjc5NiIsInVzZXJfaWQiOiJlZjE4MjIxZi0yYjk2LTQzYzEtODNiZS03MDRkYTI1MTgxYTUifQ.hs371h3ByzM6u_LrAaaYecl9aH-4zq1F9o26b09Tx-A'\
+ -H 'content-length: 338'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Space weight series store condition should man increase.","maxScore":59,"minScore":7,"description":"Inside heavy consider.\nKeep conference for simple field west. Want among outside loss guess. Just cup appear become whatever. Easy room true man.\nWork yet answer at. Direction Mrs what his response.","estimatedTime":"5 weeks"}'

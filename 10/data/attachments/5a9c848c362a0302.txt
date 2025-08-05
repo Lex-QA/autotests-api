@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIzLjcyMjY1MiIsInVzZXJfaWQiOiI0NDY3MzNiNC1iN2RjLTQ3ODAtYWE5My1mY2Q1YmRkZjNlMTIifQ.nnkYuZOlF_-v_0v3SO3Y8PITKl2ODz0SV736who5Emw'\
+ -H 'content-length: 338'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Me close partner opportunity court three contain.","courseId":"c7e3ff5a-ad8c-4399-99bf-f3c689a86f00","maxScore":97,"minScore":28,"orderIndex":57,"description":"Local other old six speech.\nMaybe role bank change across into model. Write charge piece finish western team. Sign level evening before in.","estimatedTime":"8 weeks"}'

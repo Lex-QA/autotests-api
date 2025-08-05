@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIwLjExMzA5NCIsInVzZXJfaWQiOiI2ZWQ3ODllYi1hYjljLTQ3ZWUtOTAxZS1mYjIzM2U3NzE4NzYifQ.i35ipOyXd4tGkE2wnEZs_0kPusdqTtlAMfx4kpMd5Rg'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Better have quality plan.","maxScore":51,"minScore":13,"description":"Wife TV road role audience win. Key writer military financial never memory fund field.\nNew them present stock. Environmental view last site whether write. Find identify within apply.","previewFileId":"c8ce9f0e-c076-4938-95ff-1b125de4cd2e","estimatedTime":"5 weeks","createdByUserId":"6ed789eb-ab9c-47ee-901e-fb233e771876"}'

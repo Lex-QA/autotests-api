@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjE4Ljk2Mjc5NiIsInVzZXJfaWQiOiJlZjE4MjIxZi0yYjk2LTQzYzEtODNiZS03MDRkYTI1MTgxYTUifQ.hs371h3ByzM6u_LrAaaYecl9aH-4zq1F9o26b09Tx-A'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Forget look fine sort.","maxScore":87,"minScore":29,"description":"Produce rich economic significant away lead against. Indeed challenge certain generation difference husband perform.\nField theory assume social long pass.","previewFileId":"d2b2dd9b-753d-4e9d-84c5-331082c57bb2","estimatedTime":"10 weeks","createdByUserId":"ef18221f-2b96-43c1-83be-704da25181a5"}'

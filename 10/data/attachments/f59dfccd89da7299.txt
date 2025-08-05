@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIxLjI5NzAxNiIsInVzZXJfaWQiOiI1MjcwMTZiNS1hYzY5LTRhMWUtODQzMi04YTg1NDdkYzMyODUifQ.bKR-HX17YlsldwUdCoxE-JrnHVR26Nx8iLDaIYJ7qqQ'\
+ -H 'content-length: 410'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Two alone others sign strategy job alone.","maxScore":79,"minScore":14,"description":"Rich glass few small executive. Kid big left mind. Happen foot option might mother director.\nResult theory goal than American already. East important where each country too.","previewFileId":"5d4cea3d-e37b-4c45-919b-8b00c33690e0","estimatedTime":"6 weeks","createdByUserId":"527016b5-ac69-4a1e-8432-8a8547dc3285"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjU3OjIwLjM4NjEyNCIsInVzZXJfaWQiOiJjNDRhYTIwZi1jMTE5LTQ1MTItOTQwMC0yNGFkMTFmOWFhNjUifQ.bDTrCJxrE12j0fafs-CYwDTparTKCMN6zK4kAaUBBB4'\
+ -H 'content-length: 356'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Decision see source rule.","maxScore":75,"minScore":18,"description":"Upon go majority. Mean history doctor foot hard. Learn member explain.\nArtist then soon day culture. Management bar control way strong.","previewFileId":"60362c90-06f8-49b8-8dd3-8332cd0116e6","estimatedTime":"6 weeks","createdByUserId":"c44aa20f-c119-4512-9400-24ad11f9aa65"}'
