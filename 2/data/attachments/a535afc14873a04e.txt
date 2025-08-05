@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/0096e9ee-3c4f-4534-b9b1-fd3c74a5f22b\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIxOjU2Ljg5OTM0NyIsInVzZXJfaWQiOiI4MTI3ZGE3ZC1jMzYxLTQ0NGQtYjcyOS1hOTRjODNjZDNiMzkifQ.3q81rid0EQ-e5AOsnrqudCbKV0R_Dz_QorS4fyIUgkc'\
+ -H 'content-length: 270'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Throughout process floor financial.","maxScore":78,"minScore":24,"description":"Heart tree room speech. Thing thousand small between.\nIf stay finish amount true project career. Budget west once allow main. Church two record forget.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIxOjU2Ljg5OTM0NyIsInVzZXJfaWQiOiI4MTI3ZGE3ZC1jMzYxLTQ0NGQtYjcyOS1hOTRjODNjZDNiMzkifQ.3q81rid0EQ-e5AOsnrqudCbKV0R_Dz_QorS4fyIUgkc'\
+ -H 'content-length: 432'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Relationship loss money officer five real.","maxScore":67,"minScore":30,"description":"She begin by beat. Economy also discuss month during work. For star military air water report.\nWho scientist wish read from. Marriage yes box tough interest occur. Professor through bill suffer.","previewFileId":"dbd8ed71-4dac-438e-8db4-a164f087c4f6","estimatedTime":"8 weeks","createdByUserId":"8127da7d-c361-444d-b729-a94c83cd3b39"}'

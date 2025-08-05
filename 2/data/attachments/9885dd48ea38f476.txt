@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIxOjU5LjMzNDAyNCIsInVzZXJfaWQiOiI3NzI0NzFhNS1kZDFhLTQwMDMtYjE0OS05ZjRiOWNmODdmYjcifQ.H9mtw5-NkpE2Hgz7iPu2eyyNYFIZqJX3ZpTWK2nIj9Y'\
+ -H 'content-length: 377'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Fund travel mouth set.","maxScore":53,"minScore":27,"description":"And everyone voice order clear particular.\nIdea everyone see old environmental peace test education. Affect live blue rise task. Machine also including anyone.","previewFileId":"0ee4d556-1584-415b-b58e-20e75f7528f5","estimatedTime":"7 weeks","createdByUserId":"772471a5-dd1a-4003-b149-9f4b9cf87fb7"}'

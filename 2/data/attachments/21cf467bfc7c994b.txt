@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIxOjU4LjEyNzU4MiIsInVzZXJfaWQiOiIwZGE1NzYwYy1mNzM4LTQwMjQtYWEzNS0zOTExOTRkNDg5OWUifQ.-l9DlIoa1jE803R2ypX814z5hCGxhuZbTzhIwRoQqXU'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Something hope government me.","maxScore":73,"minScore":21,"description":"Third hold check phone through approach area. Hope factor argue person place area. Why industry control late peace.\nQuite discussion book eat a. Hope low again develop can break.","previewFileId":"c0063a58-fd38-42f4-bc28-e1fa5a14cf71","estimatedTime":"6 weeks","createdByUserId":"0da5760c-f738-4024-aa35-391194d4899e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIxOjU4LjczNzA3MyIsInVzZXJfaWQiOiIxNGUwNjJmNi0xOWI0LTRiZjktYWRiOS05N2EyZjU2NWU5MGUifQ.rO8x7tVTgj-GvPmlxP2InMIAxXWvYKEG8Ge6NhINq-A'\
+ -H 'content-length: 409'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Between issue point way glass serious reason expect.","maxScore":55,"minScore":30,"description":"Region air camera professional trial light. Together popular number clear person. Area building speech hotel.\nBlack piece fall get body similar. Debate win over.","previewFileId":"665433fa-9190-4465-9dcc-9a9f5673f3f6","estimatedTime":"7 weeks","createdByUserId":"14e062f6-19b4-4bf9-adb9-97a2f565e90e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIyOjAwLjU2NzA0OSIsInVzZXJfaWQiOiJjODRhMzM4ZC03NjZkLTQ0ZDEtOWRkOS1lMDE4MWFjOTFhYjgifQ.uylBHP5-n-cc3btKUuqglzPj7uGy6A5O4Rm00MyK_dI'\
+ -H 'content-length: 435'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Democrat book level decade sound break about.","maxScore":55,"minScore":19,"description":"Spend hit home explain until court. Present dinner owner industry. Another practice expert make college.\nTo focus kitchen would environmental collection. Side surface and financial food include.","previewFileId":"9f62bb2d-0f72-4ea3-9620-f495a19d89b6","estimatedTime":"7 weeks","createdByUserId":"c84a338d-766d-44d1-9dd9-e0181ac91ab8"}'

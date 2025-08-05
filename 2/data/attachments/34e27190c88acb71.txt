@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIyOjAwLjU2NzA0OSIsInVzZXJfaWQiOiJjODRhMzM4ZC03NjZkLTQ0ZDEtOWRkOS1lMDE4MWFjOTFhYjgifQ.uylBHP5-n-cc3btKUuqglzPj7uGy6A5O4Rm00MyK_dI'\
+ -H 'content-length: 344'\
+ -H 'content-type: application/json'\
+ -d '{"title":"College brother there determine discussion sometimes would.","courseId":"a422e496-58c5-4567-a14c-3940a675f6f3","maxScore":69,"minScore":30,"orderIndex":1,"description":"Need cost institution build now job officer. Anyone financial in board green modern simple road. Trade turn west color without beautiful.","estimatedTime":"6 weeks"}'

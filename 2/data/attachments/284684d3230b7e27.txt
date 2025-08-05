@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIxOjU5LjkyMzk0MSIsInVzZXJfaWQiOiJjOTJkZWRmZC03ZWNjLTQ0NjAtOWVlMi1hYmQ0OGE1YmQ4Y2YifQ.Nol7f1tv6g-YgcU4fvrmG1QEad4tEM7tNqu7K99NAo8'\
+ -H 'content-length: 392'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Agent play program Mr movie.","maxScore":78,"minScore":18,"description":"Foot available require small turn American per. Look already item call. Imagine dream our.\nWay girl body have care like. Its song arrive that. Add prove realize friend.","previewFileId":"98f40748-6a19-4544-9fc8-53359628bf0e","estimatedTime":"6 weeks","createdByUserId":"c92dedfd-7ecc-4460-9ee2-abd48a5bd8cf"}'

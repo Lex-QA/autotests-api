@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIwOjIyOjAxLjE1Mjg0MiIsInVzZXJfaWQiOiI5NDA4OWY0MS1jYThhLTRjNjctYjg1NC0xYzUyMDhjOGRjMDAifQ.Rl1CZFeN0S4yIgTdpHpTQNpCumuW-zkZMWBG4whdDNg'\
+ -H 'content-length: 349'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Need coach type realize.","maxScore":94,"minScore":22,"description":"Use him three tough. Explain society test month your.\nPolitics to can have several. Maintain include special price week risk lot.","previewFileId":"49f925f5-4a44-4c6b-b115-25ac903e861a","estimatedTime":"8 weeks","createdByUserId":"94089f41-ca8a-4c67-b854-1c5208c8dc00"}'
