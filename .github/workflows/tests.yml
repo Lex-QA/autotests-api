@@ -1,4 +1,4 @@
-name: API tests (GitHub)
+name: API tests
 
 on:
   push:
@@ -19,7 +19,23 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: '3.12'
+
+      - name: Clone test server repository
+        run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
+
+      - name: Install test server dependencies
+        run: pip install -r qa-automation-engineer-api-course/requirements.txt
+
+      - name: Start a test server
+        env:
+          APP_HOST: "http://localhost:8000"
+          DATABASE_URL: "sqlite+aiosqlite:///./local.db"
+          JWT_ALGORITHM: "HS256"
+          JWT_SECRET_KEY: "qa-automation-engineer-api-course-secret-key"
+          JWT_ACCESS_TOKEN_EXPIRE: 1800
+          JWT_REFRESH_TOKEN_EXPIRE: 5184000
+        run: uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir ./qa-automation-engineer-api-course &
 
       - name: Install dependencies
         run: |
@@ -27,11 +43,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run API tests with pytest and generate Allure results
-        env:
-          APP_HOST: "http://85.192.34.140:8080"
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=2
 
+      # Восстанавливаем историю покрытия из кеша
       - name: Restore Coverage history
         uses: actions/cache/restore@v4
         with:
@@ -40,18 +55,21 @@ jobs:
           restore-keys: |
             coverage-history-
 
-      - name: Generate Coverage Report
+      # Генерируем HTML-отчет и обновляем историю
+      - name: Generate Coverage report
         run: |
           swagger-coverage-tool save-report
 
-      - name: Cache Coverage history
+      # Сохраняем историю обратно в кеш
+      - name: Cache Coverage  history
         if: always()
         uses: actions/cache/save@v4
         with:
           path: coverage-history.json
           key: coverage-history-${{ github.run_id }}
 
-      - name: Upload Coverage results
+      # Загружаем HTML-отчет как артефакт
+      - name: Upload Coverage report
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -66,7 +84,7 @@ jobs:
           path: allure-results
 
   publish-report:
-    needs: run-tests
+    needs: [ run-tests ]
     runs-on: ubuntu-latest
 
     steps:
@@ -89,7 +107,7 @@ jobs:
           allure_results: allure-results
           allure_history: allure-history
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
