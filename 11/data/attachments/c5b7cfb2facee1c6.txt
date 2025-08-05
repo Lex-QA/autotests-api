@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIyOjAyOjIzLjkyOTU4MiIsInVzZXJfaWQiOiJjNTM2NGVhNi1kNjdmLTRkNzMtYjhlNy05NTQxNzhiODFjOGMifQ.0aNthZ2p1fVMmC87noKjA9WNws4WEAUb3POQk0HIa8Q'\
+ -H 'content-length: 402'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Decide professor reach good standard do.","maxScore":85,"minScore":10,"description":"Clearly red choose store. Movie black find argue most adult.\nMessage around natural second yeah. Smile phone let which future. This whose instead sit far unit amount.","previewFileId":"cf281de4-9fe6-4e68-a460-22f41f046327","estimatedTime":"6 weeks","createdByUserId":"c5364ea6-d67f-4d73-b8e7-954178b81c8c"}'

@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/dd130bc6-5e14-4c19-8b98-4f1c0c70ba5a
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses/dd130bc6-5e14-4c19-8b98-4f1c0c70ba5a
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Yes arm thousand people too increase.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to List everything half. Smile political agent coach right much. Us war process trial hospital behavior.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

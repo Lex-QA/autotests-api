@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/dd130bc6-5e14-4c19-8b98-4f1c0c70ba5a\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIyOjAyOjIyLjEzMjk0OSIsInVzZXJfaWQiOiI5ZTc5MmQ4Mi1jMGNjLTQ3MmMtYTcxMi00NGMxYTIzNDE2NGEifQ.Uw-hpcN0rQzepq34caGJ7Gdyp21wdMCZ8O4zrHYggOE'\
+ -H 'content-length: 221'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Yes arm thousand people too increase.","maxScore":88,"minScore":20,"description":"List everything half. Smile political agent coach right much. Us war process trial hospital behavior.","estimatedTime":"7 weeks"}'

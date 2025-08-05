@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIyOjAyOjIyLjEzMjk0OSIsInVzZXJfaWQiOiI5ZTc5MmQ4Mi1jMGNjLTQ3MmMtYTcxMi00NGMxYTIzNDE2NGEifQ.Uw-hpcN0rQzepq34caGJ7Gdyp21wdMCZ8O4zrHYggOE'\
+ -H 'content-length: 337'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Reach current avoid kitchen.","maxScore":94,"minScore":30,"description":"Player four fish material indicate read week.\nBaby task along protect cold training. Quality type crime red stay.","previewFileId":"546b96eb-6446-484b-b52d-e8212bf0e2b3","estimatedTime":"8 weeks","createdByUserId":"9e792d82-c0cc-472c-a712-44c1a234164a"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/2a9c75cf-5e4c-49b1-87f1-c32ed1e1b524
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises/2a9c75cf-5e4c-49b1-87f1-c32ed1e1b524
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:21 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "exercise_id" equals to 2a9c75cf-5e4c-49b1-87f1-c32ed1e1b524
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Get front Mrs subject success common.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to d1e3fffd-162f-4b46-9ac1-81b0823930e4
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 96
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Key up across every serious find. Anyone factor close raise growth. Air hotel goal authority realize analysis within.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

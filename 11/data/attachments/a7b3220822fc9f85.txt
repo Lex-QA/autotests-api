@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIyOjAyOjIyLjc1OTQ0MyIsInVzZXJfaWQiOiJhZTIzNjllYS1lMjNmLTRhNzktOTkzYS1hMThlNWNlOWMzZGUifQ.eeT5POB4437cmXgY4NZ4dlDMjwVE_Uo3V7XK5fgSilM'\
+ -H 'content-length: 345'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hope consumer cultural month across.","maxScore":75,"minScore":18,"description":"Option tell political within change red. Until nation drive report. West moment discussion move out cup stop meet.","previewFileId":"c6a4309b-fa7f-4ca4-93d6-743d8003f71c","estimatedTime":"4 weeks","createdByUserId":"ae2369ea-e23f-4a79-993a-a18e5ce9c3de"}'

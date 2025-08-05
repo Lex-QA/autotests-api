@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/exercises/c04eb60d-5f54-4b92-aaca-e599c8ca180e\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIyOjAyOjI0LjUxMzU1OSIsInVzZXJfaWQiOiI0ZWFhYmFhZS01NDVhLTRmZTItOGU5NC0xM2RjYjY2MzQ2YmEifQ.jC_667jQhm0MZy3kYpO-oigqKrYWHQQ-OKww3wJ5PjI'\
+ -H 'content-length: 231'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Key audience court whole.","maxScore":81,"minScore":16,"orderIndex":34,"description":"Less want knowledge PM art together. Race result anything such explain age. Country production artist over.","estimatedTime":"7 weeks"}'

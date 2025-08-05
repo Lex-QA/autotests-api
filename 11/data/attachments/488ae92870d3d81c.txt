@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIyOjAyOjIzLjkyOTU4MiIsInVzZXJfaWQiOiJjNTM2NGVhNi1kNjdmLTRkNzMtYjhlNy05NTQxNzhiODFjOGMifQ.0aNthZ2p1fVMmC87noKjA9WNws4WEAUb3POQk0HIa8Q'\
+ -H 'content-length: 394'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Many onto collection before board without among large.","courseId":"e76380af-80fd-40a9-b302-fa678430a531","maxScore":85,"minScore":19,"orderIndex":49,"description":"Choice rule option shake. Themselves personal culture lay. Relationship billion inside west model report.\nDrug especially bank pass authority. Per huge source candidate hard dark beautiful.","estimatedTime":"10 weeks"}'

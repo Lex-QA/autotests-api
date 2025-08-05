@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIyOjAyOjI2LjM0ODkyNiIsInVzZXJfaWQiOiJhMjBhMGI1Zi1hODYxLTRkN2QtOTY5Yy0wOTg5ZTMwYTUyMmMifQ.VqbglZfLuNAZJlwPQHvbiEih5_GVK4UTYXUay5JTwhI'\
+ -H 'content-length: 435'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Soldier participant month production sort.","maxScore":54,"minScore":12,"description":"Program early live sit check item. Tax wrong have analysis. War their news water explain. Red finish pressure today together.\nTalk nearly table first table could. Cell each pretty class own result.","previewFileId":"dcb35747-bd05-4f67-932b-943e36242c1d","estimatedTime":"4 weeks","createdByUserId":"a20a0b5f-a861-4d7d-969c-0989e30a522c"}'

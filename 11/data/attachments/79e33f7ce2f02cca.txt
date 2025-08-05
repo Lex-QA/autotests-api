@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIyOjAyOjI1LjA5NDg3NCIsInVzZXJfaWQiOiI0ZTAxYTRjNy0yM2M3LTQwOTQtYjgzNy03NGU0MTljOTA3OTAifQ.-qNRbh8IHBIA4DtI8cF0Hla2QBQJ7hfFgCoTxnthbcg'\
+ -H 'content-length: 331'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Edge marriage debate type activity happy.","maxScore":56,"minScore":15,"description":"Memory young on light. Every three probably none mother imagine use hospital. Success big know.","previewFileId":"8c8a07d1-cec4-4bdc-b762-eb7f38f226a9","estimatedTime":"1 weeks","createdByUserId":"4e01a4c7-23c7-4094-b837-74e419c90790"}'

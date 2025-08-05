@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Many onto collection before board without among large.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to e76380af-80fd-40a9-b302-fa678430a531
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 85
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 49
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Choice rule option shake. Themselves personal culture lay. Relationship billion inside west model report.
+Drug especially bank pass authority. Per huge source candidate hard dark beautiful.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema
