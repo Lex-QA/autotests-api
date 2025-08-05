@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjMwLjQxNjQ2MCIsInVzZXJfaWQiOiIwYWJhMDY1Zi1hNmNhLTRjMzItYWMyNS04M2RjZmE3NTNhZmQifQ.FF2cOSaV29qrSkCpplrMfsdFaJdsXJTIf14lGNDO5c0'\
+ -H 'content-length: 414'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Imagine later myself successful charge knowledge animal.","maxScore":100,"minScore":24,"description":"Meet treatment degree whom because certainly. Learn we night price. Mouth best moment increase.\nCheck color remember occur. Ask upon two first much college trip.","previewFileId":"744eda43-05ae-430a-8219-56f416b1661d","estimatedTime":"9 weeks","createdByUserId":"0aba065f-a6ca-4c32-ac25-83dcfa753afd"}'

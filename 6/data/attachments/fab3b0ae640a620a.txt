@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjMzLjQ2NzI4NSIsInVzZXJfaWQiOiIzNDdmZGE0Yy0yNzMzLTQ2MDUtOWIzOC0xNmFlZTlmZjA4MzYifQ.KPokWcBYjyuY1FtlEaFrpTHssMD_GraI5h-SIHDoU20'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Church yet foreign some ask story head.","courseId":"666fb5d4-701f-46b7-a4d4-941857a7007a","maxScore":68,"minScore":2,"orderIndex":24,"description":"Order prepare treatment. Only above state into interest night. Tax sea seat try.\nHear environment building old describe still enter. Industry make before address Congress school after.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjI5LjgyNjM0OSIsInVzZXJfaWQiOiIzNDRlYWVlYi05NmFmLTRjMjMtOTlmOS1hZDE4YTk1YTMwNmUifQ.5drRfpgsFj4IXT87b4SU-isrXntYX1mTIObE3SZ-HkI'\
+ -H 'content-length: 397'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Clearly dark run she camera thank.","maxScore":62,"minScore":20,"description":"Operation hotel join among success she my.\nCell ground different push garden away a. Company open fly dog movie action avoid. Claim half year true less wall each miss.","previewFileId":"5cfaf06d-030b-422d-aa7b-6f7ed1940255","estimatedTime":"1 weeks","createdByUserId":"344eaeeb-96af-4c23-99f9-ad18a95a306e"}'

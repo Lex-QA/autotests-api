@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjMyLjgzMDQ3NyIsInVzZXJfaWQiOiI4Y2Q1YjQ4NC01ZGJmLTQ4YmItOTNhNi02M2MyZTU0NDM3MjUifQ.fnKqPgK9eiAn-sD7WNrkgumFvgh_Preia1J3VXx1l3E'\
+ -H 'content-length: 426'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Foreign its food defense entire apply.","maxScore":86,"minScore":6,"description":"Tend cup couple well. Prove member condition she whole discussion. Pick both forward as wall Democrat.\nYet blue there I feeling. Expect generation tree. As skin arm suggest girl something edge.","previewFileId":"7e9ee920-0fde-4e97-b2b2-af0ca5baf166","estimatedTime":"1 weeks","createdByUserId":"8cd5b484-5dbf-48bb-93a6-63c2e5443725"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjMzLjQ2NzI4NSIsInVzZXJfaWQiOiIzNDdmZGE0Yy0yNzMzLTQ2MDUtOWIzOC0xNmFlZTlmZjA4MzYifQ.KPokWcBYjyuY1FtlEaFrpTHssMD_GraI5h-SIHDoU20'\
+ -H 'content-length: 383'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Player the boy any.","maxScore":65,"minScore":12,"description":"Everybody last big speak necessary democratic language. Lawyer shoulder safe support. Condition behavior all new sell should contain natural. Whatever main card yes kid.","previewFileId":"1e514de3-d74d-4425-8b75-9a149c0b7729","estimatedTime":"8 weeks","createdByUserId":"347fda4c-2733-4605-9b38-16aee9ff0836"}'

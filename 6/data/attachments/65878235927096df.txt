@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjMxLjAwNzA1NCIsInVzZXJfaWQiOiJiOTMxYjFhOS0xOWUwLTRhYmUtODMxYy02OTEwNGFkMTkzZjMifQ.VkgDEVnkvhHFUePHGEykklMd6dWNyyy99JPclrNA-PI'\
+ -H 'content-length: 317'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Receive detail assume present try traditional particularly.","maxScore":69,"minScore":15,"description":"Mrs less ask professor. Rock apply form remember run even seem.","previewFileId":"81887a49-b412-4d0f-8a12-2ed557125942","estimatedTime":"9 weeks","createdByUserId":"b931b1a9-19e0-4abe-831c-69104ad193f3"}'

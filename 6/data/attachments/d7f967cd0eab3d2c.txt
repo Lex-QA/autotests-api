@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjMxLjU5ODA5MiIsInVzZXJfaWQiOiI5ZmE3ODVlNy03MzAxLTRjYTgtODUwOC0zNzhkZTY0ZmViMGEifQ.xGrk3CE3hSMIFGZ1qBU6ECcY3FnZoWP3l1qAc8mq9gs'\
+ -H 'content-length: 392'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Quickly pull rise candidate great.","maxScore":82,"minScore":26,"description":"Color sea thought blood including serve room.\nSpeech start sure soldier. Realize meeting clear nation know price us finish. Country summer its usually true might.","previewFileId":"062670dc-d891-4e31-b0e1-a47b2739529f","estimatedTime":"2 weeks","createdByUserId":"9fa785e7-7301-4ca8-8508-378de64feb0a"}'

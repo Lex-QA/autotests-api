@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/9f194d91-4343-4a25-88a7-446703e69d9b\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjI4LjkxMDUzNCIsInVzZXJfaWQiOiI2NTY0MGJjNS05ODQwLTRjODctYTdiZC04MWU2YWY1NzliN2YifQ.xsP-AzayzVBBD4klskSTzYWvk-DySTU2HJYewn7Fx1c'\
+ -H 'content-length: 299'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Instead kid social minute its.","maxScore":76,"minScore":10,"description":"Hope condition happen leave. Another major yard. Ago close food seven resource every.\nBoth how among meeting pull room thank. Anything team gun. Worker including sell big activity four.","estimatedTime":"4 weeks"}'
