@@ -1,0 +1,59 @@
+stages:
+  - test
+  - deploy
+
+variables:
+  APP_HOST: "http://localhost:8000"
+  DATABASE_URL: "sqlite+aiosqlite:///./local.db"
+  JWT_ALGORITHM: "HS256"
+  JWT_SECRET_KEY: "qa-automation-engineer-api-course-secret-key"
+  JWT_ACCESS_TOKEN_EXPIRE: 1800
+  JWT_REFRESH_TOKEN_EXPIRE: 5184000
+  PYTHON_VERSION: "3.12"
+
+run-tests:
+  stage: test
+  image: python:$PYTHON_VERSION
+  services:
+    - name: redis:alpine
+      alias: redis
+  before_script:
+    - python -m pip install --upgrade pip
+    - git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
+    - pip install -r qa-automation-engineer-api-course/requirements.txt
+    - pip install -r requirements.txt
+  script:
+    - uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir ./qa-automation-engineer-api-course &
+    - pytest -m regression --alluredir=allure-results --numprocesses=2
+    - swagger-coverage-tool save-report
+  artifacts:
+    when: always
+    paths:
+      - allure-results/
+      - coverage.html
+    reports:
+      junit: allure-results/*.xml
+  cache:
+    key: coverage-history-$CI_PIPELINE_ID
+    paths:
+      - coverage-history.json
+
+publish-report:
+  stage: deploy
+  image: alpine:latest
+  needs: ["run-tests"]
+  before_script:
+    - apk add --no-cache git
+  script:
+    - |
+      git config --global user.name "GitLab CI"
+      git config --global user.email "gitlab-ci@example.com"
+      git clone --branch gh-pages https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git gh-pages
+      mkdir -p gh-pages/allure-history
+      cp -r allure-results/ gh-pages/allure-history/
+      cd gh-pages
+      git add .
+      git commit -m "Update Allure report for pipeline $CI_PIPELINE_ID"
+      git push origin gh-pages
+  only:
+    - main
