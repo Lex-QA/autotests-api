@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQzOjMwLjc1NjUwNiIsInVzZXJfaWQiOiJhYTY5Mzc1ZC0yMzg2LTQ0ZjMtYmQ5Ni04NWQ1ZTcyYTc3NzEifQ.WSJZtavNM5Hq3fWUGbv0xsrAjrK8T02Aj1TsIH-kic4'\
+ -H 'content-length: 388'\
+ -H 'content-type: application/json'\
+ -d '{"title":"System page health say.","maxScore":98,"minScore":30,"description":"Myself question collection behavior which. Over main dog industry few.\nProtect choice computer eat lawyer. Dog project result consider stay down. Hand we great must old.","previewFileId":"e2216065-b440-42e1-b09e-5ecbc5f946ea","estimatedTime":"2 weeks","createdByUserId":"aa69375d-2386-44f3-bd96-85d5e72a7771"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQzOjMwLjQ4MjE4NyIsInVzZXJfaWQiOiI3NmY4MzMzOS1hZWZmLTQ2ZjAtYTY0OS0zOTE1YzgzYTA4NmMifQ.N0fAfxPVogWYnnksTejK45_UamqloRMKcYEqL0lEYZA'\
+ -H 'content-length: 353'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Seat science through imagine.","maxScore":94,"minScore":7,"description":"Green approach new bank star. Take person executive me thus share send.\nCivil fly human almost seek. Already music ago everybody.","previewFileId":"cb06219c-fe94-4871-b572-81599a7d3d2b","estimatedTime":"1 weeks","createdByUserId":"76f83339-aeff-46f0-a649-3915c83a086c"}'

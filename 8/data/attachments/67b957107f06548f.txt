@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQzOjM0LjA4NjczOCIsInVzZXJfaWQiOiIwMzEzMWY5ZC0zYzZjLTRlYWYtOWUyZC0wMzNlZWNmOWYzZTUifQ.dlpkOWRRvmp7rqvzvxBhDdWrB0xvm0Adz719Fhu4-_U'\
+ -H 'content-length: 337'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Room artist use.","maxScore":73,"minScore":16,"description":"Before despite value beautiful family financial newspaper. Collection none resource heart at. True first soon bar any already.","previewFileId":"fa043ffe-6d28-46d9-a1af-b8a924c39a8b","estimatedTime":"4 weeks","createdByUserId":"03131f9d-3c6c-4eaf-9e2d-033eecf9f3e5"}'

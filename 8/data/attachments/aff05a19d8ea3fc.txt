@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQzOjMzLjEyMjgzNSIsInVzZXJfaWQiOiJiY2RiZDhjNi1kM2M1LTRjNmMtODQxMi00MDIwNzVkYWY2YWYifQ.jMv1ha4yV8ytjRFZ2v1DwZCA3xYBtHTrT-d8ExTj2Bs'\
+ -H 'content-length: 300'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Upon practice almost.","courseId":"fe0af313-39cd-4910-b4b8-28411c4bc773","maxScore":70,"minScore":14,"orderIndex":68,"description":"Capital old federal interesting yes name. Firm maintain prevent right.\nParent side produce far. Professor increase data response.","estimatedTime":"8 weeks"}'

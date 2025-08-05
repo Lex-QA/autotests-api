@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQzOjMyLjg0OTI1MSIsInVzZXJfaWQiOiIwYTY1ZmNiNy04OTM4LTQyZTAtYTA5My0wN2ZmYzYwMjA1NzcifQ.qPMNEgFWzi9tJivgaKFq8uo2xWCFQRhhCXHHU534R1U'\
+ -H 'content-length: 354'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Decide right old year smile.","maxScore":85,"minScore":17,"description":"Thing understand spring week opportunity apply speak. Fly until type.\nTax type modern have policy I arrive. Meet food deal letter.","previewFileId":"21dd4670-2224-4302-9cdb-b6dcfb3701e0","estimatedTime":"8 weeks","createdByUserId":"0a65fcb7-8938-42e0-a093-07ffc6020577"}'

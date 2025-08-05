@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQzOjMxLjkzMzAzOCIsInVzZXJfaWQiOiI0MWYyZDI5Ni0xNzJhLTRjNjktODQ0Mi0yYzNlN2ZhYzdjZTMifQ.8n2emhmukiUBQKcftckDBBTObYl_8i1myz18nFH52a4'\
+ -H 'content-length: 365'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Send yes thought conference explain above.","maxScore":93,"minScore":22,"description":"Western story lawyer bank game other current. Cultural month role after character market.\nParticular beat hair prepare purpose.","previewFileId":"d1fdf341-f0dd-4c32-9ec1-39169c9fe1e6","estimatedTime":"3 weeks","createdByUserId":"41f2d296-172a-4c69-8442-2c3e7fac7ce3"}'

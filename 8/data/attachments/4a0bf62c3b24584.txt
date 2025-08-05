@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQzOjMzLjEyMjgzNSIsInVzZXJfaWQiOiJiY2RiZDhjNi1kM2M1LTRjNmMtODQxMi00MDIwNzVkYWY2YWYifQ.jMv1ha4yV8ytjRFZ2v1DwZCA3xYBtHTrT-d8ExTj2Bs'\
+ -H 'content-length: 336'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Itself successful stand movie poor eat.","maxScore":100,"minScore":3,"description":"Account degree must there. Also member first project trial stock season break. Spend money parent any.","previewFileId":"f3bd8157-561f-4e7a-9638-59b1830c25de","estimatedTime":"7 weeks","createdByUserId":"bcdbd8c6-d3c5-4c6c-8412-402075daf6af"}'

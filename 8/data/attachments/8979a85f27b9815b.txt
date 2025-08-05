@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQzOjMxLjY1OTI1OCIsInVzZXJfaWQiOiI2MGU3M2QwZS0yODI0LTQzMzktYjNlZi05Y2QxYWQwMmMzNTkifQ.2To0qzcIFV9_oM7_OP8FIwJ0t6O8B7hI7iz42dDZ-mE'\
+ -H 'content-length: 352'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Option few exist rate teacher cut.","maxScore":55,"minScore":14,"description":"Top important final effect. Politics center public most soldier. Get leave may speak speak. Off since great because always.","previewFileId":"8e4f1a36-4dc2-4b75-a251-b62f8290b876","estimatedTime":"4 weeks","createdByUserId":"60e73d0e-2824-4339-b3ef-9cd1ad02c359"}'
