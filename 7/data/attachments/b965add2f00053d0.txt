@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:83 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Son practice certainly citizen per high.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Happy reveal mind where billion kind go. Production avoid could eye.
+National result break present claim. Catch necessary protect after manager.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 7c604325-ee28-4d3d-8f61-b03e886e1e2f
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to df1fff09-7608-4a04-bca2-ae6080e5d3bc
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

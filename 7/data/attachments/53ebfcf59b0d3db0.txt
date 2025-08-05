@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM5OjAxLjI3MjU4MSIsInVzZXJfaWQiOiI3NTU1ODJkZS04MGMzLTRiZmEtYjA3OC1lOWJjYmNlNDgwYzAifQ.z75D4rT8gCV2gkEFxRl9FtdkH97SrkX7n9lqG8YwUGU'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Paper any training long wind seat.","maxScore":78,"minScore":17,"description":"Them year discussion carry fly anyone within. Particularly nothing take teacher kind security one wall.\nWhom by until. Lay reveal particularly family me. Really TV none tax.","previewFileId":"63a277ac-5d1f-4884-98d9-36ca5729c6c3","estimatedTime":"2 weeks","createdByUserId":"755582de-80c3-4bfa-b078-e9bcbce480c0"}'

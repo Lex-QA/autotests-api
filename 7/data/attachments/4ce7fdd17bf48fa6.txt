@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/8615df00-b401-4de8-b616-bb4f67047f07\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjU3LjQ5OTg3OCIsInVzZXJfaWQiOiJjMDU3MmVkYS1hZDUzLTQ2ZjEtOTBkMi1mMDA0OGQ3ZjM4NDkifQ.ho11ysnhfQC-TpwAITlhiBkeUJC8eLYXhY_Eb9Dk1ac'\
+ -H 'content-length: 238'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Particular first choice traditional.","maxScore":87,"minScore":27,"description":"Quite century right discussion way arrive. Recent week else body meeting forward ability. Discover every work somebody.","estimatedTime":"3 weeks"}'

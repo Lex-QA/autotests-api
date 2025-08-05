@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM5OjAyLjIzMzYzMSIsInVzZXJfaWQiOiIzYmE2NWZmYi1jNjM5LTQzNTUtYTdlMi02MDMyZGU3YjRmYTQifQ.3_M6Ec0CEpRQpAOQscApeEO9A96joCF8SLEbZGnYWtA'\
+ -H 'content-length: 350'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Generation determine play raise attack outside recent.","maxScore":89,"minScore":11,"description":"Maintain up bring whose. Decide politics speak describe we natural staff. Hold energy represent born.","previewFileId":"99354859-c8ff-4670-aa4e-7d16df6eccf2","estimatedTime":"8 weeks","createdByUserId":"3ba65ffb-c639-4355-a7e2-6032de7b4fa4"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/exercises/6aa67538-43a6-40ed-99e4-cc27d5f2193c\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM5OjAwLjA5MjcyNiIsInVzZXJfaWQiOiJlYjFiMjZlMy04YTdlLTQ1OTUtOGMzZi1mZTRmMmRiM2U3ZTAifQ.Fch70iCsQbnibeyp6K99ck7uI_q4zCRk6tfRDPmvh9E'\
+ -H 'content-length: 320'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Sit bank manage fund find.","maxScore":68,"minScore":6,"orderIndex":58,"description":"Each first first contain draw. Say sign drive professor write score similar moment.\nMajority reveal time safe. Never number remember five what upon true. Coach authority some guess individual be.","estimatedTime":"9 weeks"}'

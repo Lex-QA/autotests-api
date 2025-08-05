@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjM4OjU5LjgxOTk3MCIsInVzZXJfaWQiOiJhZDYzMDE1ZS01ZjgyLTRmZGQtYTM0YS1hYjgyY2JmYjM5YWEifQ.0lHwHWJdxRZyly8OOo7hH14MHDW0GsBu5r-elvZc7Kg'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"While their energy also.","maxScore":56,"minScore":11,"description":"Ever kitchen chance treatment radio. Officer use focus stock character tonight. Collection water statement character return husband move move.\nKnowledge forward but at suggest writer.","previewFileId":"51bbe0e6-228f-4539-aefe-7ab79db730a7","estimatedTime":"8 weeks","createdByUserId":"ad63015e-5f82-4fdd-a34a-ab82cbfb39aa"}'
