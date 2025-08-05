@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQ2OjEzLjI5Njg1MCIsInVzZXJfaWQiOiJhYTU4ZDc0Ny1mMWIxLTRlYzctOWQwMi01NzA4M2VhZDI2NmQifQ.IWSwwe5xBpjakHRHAUjYimmfsB1hN_HjR8xYHkfJDMU'\
+ -H 'content-length: 388'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Individual these morning prevent.","maxScore":89,"minScore":11,"description":"Record late message agree wind total ball vote. Democrat throughout ten well full measure. Impact hear job. Boy discuss religious wonder four almost skin fight.","previewFileId":"9623714f-2160-4e8f-9d70-2a21a13b2c05","estimatedTime":"9 weeks","createdByUserId":"aa58d747-f1b1-4ec7-9d02-57083ead266d"}'

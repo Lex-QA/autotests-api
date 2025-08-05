@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQ2OjE1LjM4NzI3MCIsInVzZXJfaWQiOiJkNjRjM2Y2Ni05MzZmLTQyYWYtOTk0MS1lMWViYTA4MGM2N2QifQ.rJXwD3RtfGOe-HBeOoTp3fDP4_HZPqiF6dwbA_eG_S8'\
+ -H 'content-length: 382'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Child main partner care skin policy order.","maxScore":85,"minScore":17,"description":"One including beautiful husband movie drug. Enter let national would human quite. Thing every before century bring. Happen enjoy stuff same week.","previewFileId":"92df4900-88a9-4711-8bea-d78cccdbb3e5","estimatedTime":"3 weeks","createdByUserId":"d64c3f66-936f-42af-9941-e1eba080c67d"}'

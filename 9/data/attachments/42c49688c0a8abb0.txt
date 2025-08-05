@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQ2OjE0LjIwNjk4NiIsInVzZXJfaWQiOiIxYzQxYjdkMC0wMWUwLTQyNDgtYTYwMi02ZTZjZTlkMDQ2ZjYifQ.0MaJp9FlQ7-trgyFWs281gicrg2cEW3T_yCdUTqbNqg'\
+ -H 'content-length: 388'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Must option cup heart.","maxScore":89,"minScore":19,"description":"Cover practice way student. Mr lot themselves reveal standard.\nClose attorney run tell model much each. Example run later try former study both. Enjoy save approach wide.","previewFileId":"80cabbf7-d97e-4a9d-9ba7-98a4fae547d0","estimatedTime":"2 weeks","createdByUserId":"1c41b7d0-01e0-4248-a602-6e6ce9d046f6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQ2OjE1Ljk3MjgxNSIsInVzZXJfaWQiOiJiMjVlNzNkOS1hZWRlLTRkYjgtOWI5Mi1mOWVmYTEwYjdlYjYifQ.eNhSvraD28bhtDs_iqicnRl_a0RO39t3_HpBHoSTe1A'\
+ -H 'content-length: 329'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Season police foot seek offer use.","maxScore":72,"minScore":2,"description":"Factor worry notice southern. Product glass raise husband crime there. Stay option organization send.","previewFileId":"0fbbc236-fa9d-48ef-9c93-33f5b2c8fe8f","estimatedTime":"1 weeks","createdByUserId":"b25e73d9-aede-4db8-9b92-f9efa10b7eb6"}'

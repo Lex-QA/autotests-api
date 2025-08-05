@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/8b5749ab-7297-4e9d-afe5-d60c4a37609e
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises/8b5749ab-7297-4e9d-afe5-d60c4a37609e
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:21 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "exercise_id" equals to 8b5749ab-7297-4e9d-afe5-d60c4a37609e
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Agency bit buy voice line yet.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 58528e7c-045a-4892-9edc-b3792f787ce6
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 9
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Main take style also to area. This magazine fear notice point. Suddenly market thought see better price.
+Ability society anyone to. Too enough detail yard should.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

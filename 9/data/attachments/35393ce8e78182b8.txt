@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQ2OjE2LjU1NTgyMyIsInVzZXJfaWQiOiJiNDlkNDMwMy0yZDJlLTQzZjAtOGYwZC05NjBiYmIwNmYwZTgifQ.y9VUzhum724DrnZWITjqTHYjQ_4lLkVRa0mqbmJMSws'\
+ -H 'content-length: 298'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Administration bar personal customer.","maxScore":65,"minScore":11,"description":"Wide next card hair. Wide modern deal phone value last indeed tax.","previewFileId":"8a762eeb-e50b-4c36-9611-b78efbe0607d","estimatedTime":"4 weeks","createdByUserId":"b49d4303-2d2e-43f0-8f0d-960bbb06f0e8"}'

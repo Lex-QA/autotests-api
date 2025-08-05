@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQ2OjE3LjIzMjQ4NCIsInVzZXJfaWQiOiIyODFlZjM0OC03ZGE1LTRhNmMtOTc3Mi0xYjhjYjhiNzRmOGQifQ.FV8YBpAse9zwLsh_gPy6NHlfls9u6rsu8KBCvpj6wDE'\
+ -H 'content-length: 357'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Media maintain woman seat similar professor.","maxScore":56,"minScore":2,"description":"Important ability loss now lot stop impact paper. Travel before prepare doctor sort floor new. Issue agency result kid.","previewFileId":"3d9ca9c4-2771-4c93-85ca-ac7495dde059","estimatedTime":"4 weeks","createdByUserId":"281ef348-7da5-4a6c-9772-1b8cb8b74f8d"}'

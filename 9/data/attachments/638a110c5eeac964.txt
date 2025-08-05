@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/e10a7ecf-fd6f-465c-9bf3-0878b793c3f0\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQ2OjEzLjI5Njg1MCIsInVzZXJfaWQiOiJhYTU4ZDc0Ny1mMWIxLTRlYzctOWQwMi01NzA4M2VhZDI2NmQifQ.IWSwwe5xBpjakHRHAUjYimmfsB1hN_HjR8xYHkfJDMU'\
+ -H 'content-length: 311'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hope affect imagine compare.","maxScore":53,"minScore":22,"description":"Garden agent stop hotel ball house. Plant occur claim dinner.\nChoice director news box fire successful. View young process trip keep call recently around. Writer evidence real real lose institution.","estimatedTime":"10 weeks"}'

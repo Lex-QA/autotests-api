@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjQ2OjE0Ljc5MTM2MSIsInVzZXJfaWQiOiI2YWVkODI2My02YTA1LTRmNzMtODA4Yi0wNWE3NDU3OWM3MDUifQ.-N5-OxfKhHeYPWPuvF-gAosNmRH1MbKN8d1ZRZi0CDU'\
+ -H 'content-length: 357'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Benefit within piece professional agency.","maxScore":57,"minScore":30,"description":"Station president service woman picture. From ask station push produce real.\nAffect beat some raise. Only begin a or us.","previewFileId":"653e5304-36fb-4b81-b16c-b7b34e240167","estimatedTime":"4 weeks","createdByUserId":"6aed8263-6a05-4f73-808b-05a74579c705"}'
