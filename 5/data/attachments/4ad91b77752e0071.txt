@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjMxOjM5LjkxMjExMiIsInVzZXJfaWQiOiJlN2RiMWE0OS1jNjQ3LTRiNTEtYmJmMS1kZTJiZDcxM2NkNWIifQ.Pj3TFqxAEpe3FDzuSygA3zlKoBc_qtOMMKSSzygIhk0'\
+ -H 'content-length: 316'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Amount Republican conference hair speak.","courseId":"08c4078c-f218-47e1-8b90-2a8ae871773f","maxScore":91,"minScore":17,"orderIndex":15,"description":"Suffer history hair her Mr. End accept pretty whatever wall. Cover result pull player probably social station. Bring like with.","estimatedTime":"9 weeks"}'

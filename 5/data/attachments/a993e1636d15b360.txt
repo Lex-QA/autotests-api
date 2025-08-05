@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjMxOjM5LjIxNzcyOSIsInVzZXJfaWQiOiJkMzFjZmU4Ny1jMzI1LTQzMTMtYjU1Ny02MmYzZGE5Y2RhNmMifQ.usFe0WAIgTuOAAx3iN_i14PPgfupWhEWneABfj23xDg'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Do husband program west month.","courseId":"d493bfae-7b9b-4b93-a6d6-0b20c206885b","maxScore":94,"minScore":9,"orderIndex":99,"description":"Medical need reason exactly very wear. Author off find low few. As full inside foot financial skill.\nTable during even all one. Hundred budget set that Mr. Laugh cell reality hear senior head.","estimatedTime":"6 weeks"}'

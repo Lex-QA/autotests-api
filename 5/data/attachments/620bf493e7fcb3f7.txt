@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjMxOjQwLjQ5MjgxNyIsInVzZXJfaWQiOiI4YThjMDdiZC03NTdjLTQwMjktOGIyNC1iZTM2YjM1MWJkOGEifQ.yMQiUFOJJH8DvU_jWf80gV6Vq3BUQnXpGsSU4CHsC_E'\
+ -H 'content-length: 393'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Already whole even mouth.","maxScore":86,"minScore":30,"description":"Feeling easy relate nearly line specific seem eight. Reality laugh stuff air.\nAct seat floor leave. Step reality language.\nCatch entire pattern call put machine statement.","previewFileId":"0c44c0d8-aa78-4016-9b4a-a94aa093b7ae","estimatedTime":"8 weeks","createdByUserId":"8a8c07bd-757c-4029-8b24-be36b351bd8a"}'

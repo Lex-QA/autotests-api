@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjMxOjM5LjIxNzcyOSIsInVzZXJfaWQiOiJkMzFjZmU4Ny1jMzI1LTQzMTMtYjU1Ny02MmYzZGE5Y2RhNmMifQ.usFe0WAIgTuOAAx3iN_i14PPgfupWhEWneABfj23xDg'\
+ -H 'content-length: 324'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Enter clearly two success security.","maxScore":94,"minScore":6,"description":"Leave why security. School window see natural just shake. Test unit general kid something girl.","previewFileId":"f6769a3f-d48b-40f2-a430-8015726a6fca","estimatedTime":"9 weeks","createdByUserId":"d31cfe87-c325-4313-b557-62f3da9cda6c"}'

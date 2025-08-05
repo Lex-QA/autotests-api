@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjMxOjM2Ljg0MDE0NiIsInVzZXJfaWQiOiI2MjlmOTg0Yi1mYmM5LTRjYzktOTllNS0yODZmMjY4M2Y3ZjgifQ.pcE6X1Wiwyq_IgPjkHZX_fHOYC1QBZ9hv1ySt5JmtOo'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Statement go tend have beyond century third treat.","maxScore":82,"minScore":6,"description":"Enough important heavy accept provide. Lead in lose player account certainly who.\nMan radio camera science not available lot. From enough share. Paper election above great.","previewFileId":"1b24c807-bcaf-47b1-b654-a7c1b202b50a","estimatedTime":"9 weeks","createdByUserId":"629f984b-fbc9-4cc9-99e5-286f2683f7f8"}'

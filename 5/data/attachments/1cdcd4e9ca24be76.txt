@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjMxOjM2LjIyMDQwNiIsInVzZXJfaWQiOiI2ZjY5ZjcyMi1jMzlkLTRmMTMtYTYwMy1kN2UzYzUyNGQyY2EifQ.hsxostVG6ShaYxOBGd1noznrbsgS4T3jvtOD3qHiyAU'\
+ -H 'content-length: 429'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Finish tax position tax body beat cup.","maxScore":86,"minScore":23,"description":"Enough show current take light clearly spring respond. Woman main sort cultural before.\nCollege group meet sport phone. Her page become wind few.\nFood top model rock. Today hand parent however.","previewFileId":"475cfafe-1dc4-45de-9d32-e68c5d751a76","estimatedTime":"10 weeks","createdByUserId":"6f69f722-c39d-4f13-a603-d7e3c524d2ca"}'

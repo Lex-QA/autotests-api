@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjMxOjM3LjQ3MDI3OCIsInVzZXJfaWQiOiIwZGQ2OGI2ZS1kZTI3LTQwNjUtYjJjMS04YjQyY2Y2OGExZjUifQ.yDiOc015ersCxMGXDPyqV6LXSN4N_FrZUgsuzg82bjI'\
+ -H 'content-length: 381'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Technology goal price ago statement national.","maxScore":89,"minScore":6,"description":"Hear five toward prevent or training.\nCoach national never ready night. Top military enjoy necessary somebody walk. Body involve better hope.","previewFileId":"4dbe1b48-f301-4a2c-ae2c-fc3345e59495","estimatedTime":"7 weeks","createdByUserId":"0dd68b6e-de27-4065-b2c1-8b42cf68a1f5"}'

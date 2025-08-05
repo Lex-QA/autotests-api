@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDIxOjMxOjM5LjkxMjExMiIsInVzZXJfaWQiOiJlN2RiMWE0OS1jNjQ3LTRiNTEtYmJmMS1kZTJiZDcxM2NkNWIifQ.Pj3TFqxAEpe3FDzuSygA3zlKoBc_qtOMMKSSzygIhk0'\
+ -H 'content-length: 420'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Meet guy apply nice house serve radio.","maxScore":96,"minScore":28,"description":"Some visit half study. Course million weight.\nUnder travel maybe research source wife million. Together recognize customer story person. Compare out father throughout scientist anything.","previewFileId":"48a81307-b62a-43e6-98ed-5f6d73781fba","estimatedTime":"9 weeks","createdByUserId":"e7db1a49-c647-4b51-bbf1-de2bd713cd5b"}'
